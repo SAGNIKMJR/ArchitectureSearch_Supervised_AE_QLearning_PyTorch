@@ -12,7 +12,7 @@ import models.mnist.hyper_parameters
 import models.mnist.state_space_parameters as state_space_parameters
 
 parser = argparse.ArgumentParser(description='MetaQNN MNIST Training')
-parser.add_argument('data', metavar='DIR', default='./MNIST' , #give path to dataset
+parser.add_argument('--data', metavar='DIR', default='./MNIST' , #give path to dataset
                     help='path to dataset')
 
 def main():
