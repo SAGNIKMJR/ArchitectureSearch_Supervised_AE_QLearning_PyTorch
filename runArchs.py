@@ -9,11 +9,11 @@ import models.mnist.hyper_parameters
 import models.mnist.state_space_parameters as state_space_parameters
 
 parser = argparse.ArgumentParser(description='Reconstruction architecure training')
-parser.add_argument('data', metavar='DIR', default='/home/shared/sagnik/datasets/MNIST' , #give path to dataset
+parser.add_argument('--data', metavar='DIR', default='/home/shared/sagnik/datasets/MNIST' , #give path to dataset
                     help='path to dataset')
-parser.add_argument('csv_path', metavar = 'CSV_PATH', default = './replayDict1.csv', \
+parser.add_argument('--csv_path', metavar = 'CSV_PATH', default = './replayDict1.csv', \
 					help = 'path to csv sorted in terms of inverse loss')
-parser.add_argument('no', metavar='NO', default = 100, help ='no. of top architectures to be trained')
+parser.add_argument('--no', metavar='NO', default = 100, help ='no. of top architectures to be trained')
 
 def main():
 	global args
