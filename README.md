@@ -1,5 +1,5 @@
 # ArchitectureSearch_Supervised_AE_QLearning_PyTorch
-Architecture search using unsupervised learning with symmetric auto-encoders and QLearning in PyTorch
+Architecture search using unsupervised learning with symmetric auto-encoders and QLearning in PyTorch</br></br>
 ***To run search***</br>
 **python run.py --data path_to_dataset**</br></br>
 ***To run architectures from search***</br>
